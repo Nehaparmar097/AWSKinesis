@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Initialize Kinesis client
 kinesis_client = boto3.client('kinesis', region_name='us-east-1')
-
+#one chage
 # Function to generate log entries and push to Kinesis
 def generate_log_entry():
     while True:
